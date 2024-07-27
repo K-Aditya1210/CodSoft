@@ -1,6 +1,5 @@
 import java.util.Scanner;
 class BankAccount {
-
     private double balance;
 
     public BankAccount(double initialBalance) {
@@ -23,15 +22,11 @@ class BankAccount {
         return false;
     }
 }
-
 class ATM {
-
     private BankAccount account;
-
     public ATM(BankAccount bankaccount) {
         account = bankaccount;
     }
-
     public void ShowMenu() {
 
         System.out.println("ATM Menu");
@@ -50,6 +45,7 @@ class ATM {
             
             ShowMenu();
             System.out.println("select the option from the Menu.");
+            System.out.print("Enter : ");
             int input = sc.nextInt();
 
             switch (input) {
@@ -88,7 +84,7 @@ class ATM {
     }
 }
 
-public class Task3 {
+public class AtmInterface {
 
     public static void main(String args[]) {
 
