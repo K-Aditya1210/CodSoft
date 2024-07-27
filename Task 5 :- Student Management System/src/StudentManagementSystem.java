@@ -52,11 +52,11 @@ class Student {
 
 }
 
-class studentManagemnetSystem {
+class Stm {
 
     private ArrayList<Student> students;
 
-    public studentManagemnetSystem() {
+    public Stm() {
         students = new ArrayList<>();
     }
 
@@ -98,7 +98,7 @@ public class StudentManagementSystem  {
         System.out.println("****************************************");
 
         Scanner sc = new Scanner(System.in);
-        studentManagemnetSystem SMS = new studentManagemnetSystem();
+        Stm SMS = new Stm();
 
         while (true) {
 
