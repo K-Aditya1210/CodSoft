@@ -5,7 +5,7 @@ class BankAccount {
     public BankAccount(double initialBalance) {
         balance = initialBalance;
     }
-
+    
     public void deposit(double amount) {
         balance = balance + amount;
     }
